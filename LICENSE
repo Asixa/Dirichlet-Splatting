@@ -1,0 +1,81 @@
+Dirichlet Splatting Research License
+Version 1.0
+SPDX-License-Identifier: LicenseRef-Dirichlet-Splatting-Research-1.0
+
+Copyright (c) 2026 Xingyu Chen. All rights reserved.
+
+1. Scope
+
+This license applies to the Dirichlet Splatting source code and accompanying
+documentation made available under this license (the "Software"). The copyright
+holders of the Software are the "Licensors". Third-party code, dependencies,
+datasets and assets remain subject to their own terms. In particular,
+assets/bunny_60mm.ply is not licensed under this license.
+
+2. Research permission
+
+Subject to these terms, the Licensors grant you a worldwide, non-exclusive,
+royalty-free permission to use, reproduce and modify the Software solely for
+non-commercial research, teaching and evaluation, and to redistribute the
+Software and modifications as permitted by Section 3.
+
+Non-commercial research, teaching and evaluation means activities not primarily
+intended for commercial advantage or monetary compensation. Academic and
+industrial researchers may exercise these permissions if their use meets this
+condition. Institutional affiliation alone does not determine whether a use is
+permitted. Publishing research papers and reporting evaluation results are
+permitted; ordinary academic salaries and research grants do not by themselves
+make a use commercial.
+
+3. Redistribution
+
+You may redistribute the Software, with or without modifications, in source or
+binary form, without charge, provided that you:
+
+(a) include this complete license and retain the copyright and attribution
+    notices supplied with the Software;
+(b) clearly identify modified files and state that you changed them; and
+(c) distribute the Software and modifications under this license, without
+    granting recipients commercial rights or removing its use restrictions.
+
+Recipients receive permission directly from the Licensors under these terms.
+Redistribution does not authorize relicensing the Software under a permissive
+license or otherwise expanding the rights granted here.
+
+4. Commercial use and other permissions
+
+Commercial use requires a separate, prior written license from the relevant
+copyright holders. Without such a license, you may not sell or commercially
+license the Software, use it to provide paid services or consulting, integrate
+it into a commercial product or hosted service, or use it to develop or operate
+such products or services. This restriction also applies to modified versions.
+Contact the project maintainers through the official repository to request
+commercial permission:
+https://github.com/Asixa/Dirichlet-Splatting
+
+No trademark rights or express patent license are granted. Rights not expressly
+granted are reserved. This license does not restrict rights available to you
+under applicable law independently of this license. It does not revoke rights
+validly granted to you under a separate license for an earlier copy.
+
+5. Research attribution
+
+If you publish research using the Software, please cite the accompanying paper
+as described in CITATION.cff. This citation request is not an additional license
+condition; the notice requirements in Section 3 remain mandatory.
+
+6. Termination
+
+Your permissions under this license terminate if you fail to comply with its
+terms. Upon termination, you must stop using and redistributing the Software
+except as independently permitted by law or a separate license. Termination of
+your permissions does not terminate those of recipients who remain compliant.
+
+7. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSORS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dirichlet-splatting"
+version = "0.1.0"
+description = "Explicit Slang kernels for coherent Dirichlet splatting and inverse rendering"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-Dirichlet-Splatting-Research-1.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Xingyu Chen" },
+  { name = "Wuqiong Zhao" },
+  { name = "Xinyu Zhang" },
+  { name = "Tzu-Mao Li" },
+]
+dependencies = ["torch>=2.7", "numpy>=1.24", "slangtorch==1.2.1", "ninja>=1.11"]
+
+[project.urls]
+Homepage = "https://dirichlet.xingyuchen.me/"
+Paper = "https://doi.org/10.1145/3842559"
+arXiv = "https://arxiv.org/abs/2610.00618"
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.7", "trimesh>=4.0", "rtree>=1.0", "scipy>=1.10"]
+dev = ["pytest>=8", "ruff>=0.11", "build>=1.2", "twine>=6"]
+
+[tool.setuptools.packages.find]
+include = ["dsplat*"]
+
+[tool.setuptools.package-data]
+dsplat = ["kernels/*.slang"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the Dirichlet Splatting paper when using this implementation."
+title: "Dirichlet Splatting: Differentiable Rendering for Wave-Based Inverse Problems"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Xingyu
+  - family-names: Zhao
+    given-names: Wuqiong
+  - family-names: Zhang
+    given-names: Xinyu
+  - family-names: Li
+    given-names: Tzu-Mao
+version: 0.1.0
+license-url: "https://github.com/Asixa/Dirichlet-Splatting/blob/main/LICENSE"
+url: "https://dirichlet.xingyuchen.me/"
+preferred-citation:
+  type: article
+  title: "Dirichlet Splatting: Differentiable Rendering for Wave-Based Inverse Problems"
+  authors:
+    - family-names: Chen
+      given-names: Xingyu
+    - family-names: Zhao
+      given-names: Wuqiong
+    - family-names: Zhang
+      given-names: Xinyu
+    - family-names: Li
+      given-names: Tzu-Mao
+  journal: "ACM Transactions on Graphics"
+  volume: 45
+  issue: 6
+  start: 199
+  month: 12
+  year: 2026
+  doi: "10.1145/3842559"
+  url: "https://dirichlet.xingyuchen.me/"
